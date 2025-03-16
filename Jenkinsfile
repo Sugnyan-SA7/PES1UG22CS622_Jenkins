@@ -17,7 +17,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh 'cp 1.cpp 2.cpp'
+                echo 'Deploying application...'
             }
         }
     }
