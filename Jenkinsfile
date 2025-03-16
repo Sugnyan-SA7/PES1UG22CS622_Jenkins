@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'ls -l'
-                sh 'g++ PES1UG22CS622.cpp -o PES1UG22CS622'
+                sh 'cd main && g++ PES1UG22CS622.cpp -o PES1UG22CS622'
             }
         }
 
